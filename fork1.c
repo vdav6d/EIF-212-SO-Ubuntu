@@ -4,7 +4,7 @@
 
 int main() {
     printf ("Hola mundo 1\n");
-    fork(); // Asigna ID a PH (=Proceso Hijo)
+    fork(); // Copy of all things coming gets created over here.
     printf ("Hola mundo 2 \n");
     return 0;
 }
